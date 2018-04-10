@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#contact h2 {
+  margin-top:0;
+}
+
+#home {background-image: url("../images/home.jpg");
+      height: 100vh;
+    }
+#about {background-image: url("../images/home.png");
+  height: 100vh;
+}
+#projects {background-image: url("../images/1.jpg");
+  height: 100vh;
+}
+#contact {background-image: url("../images/germany.jpg");
+    background-repeat: repeat;
+}
+
+#form-container {
+  width: 800px;
+}
+
+
+section {
+    /* Full height */
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article {
+    background-color: rgba(0,0,0,0.15);
+    padding: 2em;
+}
+
+
+.height {
+  height: 200px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+
+
+h2 {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav {
+  height: 30px;
+  background-color: #fff;
+  font-family: serif;
+  font-style: italic;
+}
+
+footer {
+  font-family: serif;
+  font-style: italic;
+}
+
+.home-container {
+  padding-top: 250px;
+}
